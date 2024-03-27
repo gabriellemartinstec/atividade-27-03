@@ -1,0 +1,12 @@
+# Algoritmo "livros"
+
+livros = int(input("Digite a quantidade de livros: "))
+
+if livros <= 1:
+    print("Permanece o valor")
+elif 2 <= livros <= 3:
+    print("Desconto de 10% sobre o valor total")
+elif 4 <= livros <= 5:
+    print("Desconto de 20% sobre o valor total")
+elif livros >= 6:
+    print("Desconto de 30% sobre o valor total")
